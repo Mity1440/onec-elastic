@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="998ef036-4754-4bee-889c-2dd0723dd71b">
+  <producedTypes>
+    <objectType typeId="1f4f0cca-068c-41ec-aa8b-88409a30c2b2" valueTypeId="03dbfad1-7973-4696-a61a-28de303831f8"/>
+    <refType typeId="915b333b-ff82-4461-add8-2cf78a58bfa5" valueTypeId="9474213c-603a-4245-8fa6-69c308248edf"/>
+    <selectionType typeId="c2889014-3af8-4c3d-a113-d8557d7a194b" valueTypeId="c038c305-1b55-4286-be7b-e431de78cdab"/>
+    <listType typeId="2fe83894-3e04-4656-9e95-3f7a997921ac" valueTypeId="fd9ad84a-3351-4bbd-b5a8-3bea9a3f64ee"/>
+    <managerType typeId="498cc511-d788-4054-b963-1deb9b3a518e" valueTypeId="91f4090c-1e46-4a09-80f5-830b4bc3a262"/>
+  </producedTypes>
+  <name>md_Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Md пользователи</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.md_Пользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.md_Пользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b3c924d3-5520-49e1-8fba-6d0f8e66fdd9">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7bd01f82-4ee7-4f31-810f-3c26e1763693">
+    <name>УникальныйИдентификаторПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор пользователя ИБ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

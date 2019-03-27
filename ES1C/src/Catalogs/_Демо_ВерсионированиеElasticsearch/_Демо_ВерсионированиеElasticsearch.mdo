@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6445ca5e-29bf-4935-ac0a-8816ec1ce978">
+  <producedTypes>
+    <objectType typeId="9de59ace-12ce-4614-8345-66f2781d380c" valueTypeId="3d42c005-7bb4-4ed4-a7a3-4489a86398de"/>
+    <refType typeId="e99765f3-16e1-414e-b83e-8662d7093594" valueTypeId="8a4d0273-151a-4159-b08a-c31bee746fc3"/>
+    <selectionType typeId="a1ac0350-98f1-4a66-9bff-42db9ccba810" valueTypeId="8c2b1275-8097-46d1-a43c-376b1a0b19d9"/>
+    <listType typeId="3987acbe-dd33-423b-a8d6-f2ba3ca566f4" valueTypeId="cc629271-daa6-4c14-8a8d-8dac0ae33a79"/>
+    <managerType typeId="6afaa467-db8f-420d-8e1f-35fd033676bb" valueTypeId="f05fca70-9225-4731-848b-9968b3349c37"/>
+  </producedTypes>
+  <name>_Демо_ВерсионированиеElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник (демонстрационный)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog._Демо_ВерсионированиеElasticsearch.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog._Демо_ВерсионированиеElasticsearch.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

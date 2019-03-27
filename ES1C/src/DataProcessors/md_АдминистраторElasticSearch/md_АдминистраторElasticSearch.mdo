@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dca9c53a-6d26-4774-8375-7972462702e7">
+  <producedTypes>
+    <objectType typeId="9493b14a-0b7e-4a9e-ae35-a306168852dd" valueTypeId="1959de92-0c82-4800-8123-5967c17b0f96"/>
+    <managerType typeId="680359e4-3bfb-4e7c-aaf6-451fe9d16ef8" valueTypeId="a9f94d71-fb90-4109-9ed8-8749927c5512"/>
+  </producedTypes>
+  <name>md_АдминистраторElasticSearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор (Elasticsearch)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.md_АдминистраторElasticSearch.Form.Форма</defaultForm>
+  <attributes uuid="f78d2e93-be51-4cb9-b6be-248ce1f60328">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DefinedType.md_ОбъектыВерсионированияElasticSearch</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a0cdc355-2dfc-4650-91c2-fe47a7aa4ed0">
+    <name>СерверElasticsearch</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер elasticsearch</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.md_СервераElasticsearch</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fd13eb5a-7547-45e4-a189-3ebca80da3eb">
+    <name>ИндексES</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс ES</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="95ea7a28-6e12-4da6-ad10-4fc405a0dad8">
+    <name>ВсегоВерсий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всего версий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9be49d92-4bd5-4823-bbe2-74ecdb86bfd9">
+    <name>ДатаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отбора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="14452e8b-b15c-476b-93c3-2cae084d10a6">
+    <name>ВидСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сравнения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5c946969-0b4a-469e-9e00-a1909dda787c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c2ee4da-b4c4-4eee-b7c0-e04e64d7c3ef">
+    <name>ФормаВыполненияЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выполнения запроса</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

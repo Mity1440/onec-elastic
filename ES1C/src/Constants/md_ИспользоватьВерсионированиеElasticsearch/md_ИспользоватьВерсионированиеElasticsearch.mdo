@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="673b37da-f9c2-458b-9c9d-e523f903f8ed">
+  <producedTypes>
+    <managerType typeId="3e805fe3-1d70-4077-9658-2cee78bd736a" valueTypeId="37758d8e-37c7-4cec-a5e3-93ed89a1f73f"/>
+    <valueManagerType typeId="7a116a98-a63e-4ca4-afeb-3af9db0d24f4" valueTypeId="11eff147-3bae-45fd-80f9-53a5109598a5"/>
+  </producedTypes>
+  <name>md_ИспользоватьВерсионированиеElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать версионирование elasticsearch</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

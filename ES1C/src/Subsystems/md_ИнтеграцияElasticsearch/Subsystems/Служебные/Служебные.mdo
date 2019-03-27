@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ad707e9-3efb-4e3e-a46c-d66d5dceaae0">
+  <name>Служебные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.md_ОбщегоНазначения</content>
+  <content>CommonModule.md_СтроковыеФункцииКлиентСервер</content>
+  <content>SessionParameter.md_ТекущийПользователь</content>
+  <content>SessionParameter.md_ПараметрыКлиентаНаСервере</content>
+  <content>CommonPicture.md_ДлительнаяОперация48</content>
+  <content>Catalog.md_Пользователи</content>
+  <parentSubsystem>Subsystem.md_ИнтеграцияElasticsearch</parentSubsystem>
+</mdclass:Subsystem>

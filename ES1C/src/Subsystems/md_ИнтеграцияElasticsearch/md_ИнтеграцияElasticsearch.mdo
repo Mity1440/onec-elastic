@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a22bbee-1feb-4df8-a00b-fc3f643db67a">
+  <name>md_ИнтеграцияElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция (Elasticsearch)</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.md_ОбщегоНазначенияElasticsearch</content>
+  <content>Role.md_ПодсистемаИнтеграцияElasticsearch</content>
+  <subsystems>ВерсионированиеElasticsearch</subsystems>
+  <subsystems>Служебные</subsystems>
+</mdclass:Subsystem>

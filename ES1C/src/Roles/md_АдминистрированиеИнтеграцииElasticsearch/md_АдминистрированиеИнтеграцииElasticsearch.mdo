@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86a89e36-5733-45a1-a523-894e816afc4a">
+  <name>md_АдминистрированиеИнтеграцииElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование интеграции elasticsearch</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

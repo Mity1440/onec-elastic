@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd8ce160-0b9f-4e46-a6c4-da143896119b">
+  <producedTypes>
+    <objectType typeId="41179ef0-6e13-403b-9f35-fac1ad2e0df5" valueTypeId="f4e2f8be-2a36-4436-93b8-c6ec8f8fe301"/>
+    <managerType typeId="e50273cb-d8ff-40bf-9482-021a3348de39" valueTypeId="5be3752b-8988-4908-ab1e-ed10049668f4"/>
+  </producedTypes>
+  <name>md_СравнениеВерсийElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение версий elasticsearch</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.md_СравнениеВерсийElasticsearch.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.md_СравнениеВерсийElasticsearch.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="daeba153-4bb8-4ece-a5f4-6dba4ca3a657">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a853add2-4d8b-4353-abc9-0d483052111b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

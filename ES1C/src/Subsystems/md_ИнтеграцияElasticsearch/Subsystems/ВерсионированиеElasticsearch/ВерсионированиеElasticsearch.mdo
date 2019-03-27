@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e26254b-01b1-4cca-ab70-5a4aa13549d1">
+  <name>ВерсионированиеElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионирование elasticsearch</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.md_НастройкаВерсионированияОбъектовВElasticsearch</content>
+  <content>Report.md_СравнениеВерсийElasticsearch</content>
+  <content>Constant.md_ИспользоватьВерсионированиеElasticsearch</content>
+  <content>DefinedType.md_ОбъектыВерсионированияElasticSearch</content>
+  <content>FunctionalOption.md_ИспользоватьВерсионированиеElasticsearch</content>
+  <content>EventSubscription.md_ВерсионированиеElasticsearch_ДокументОбъект_ПриЗаписи</content>
+  <content>CommonModule.md_ВерсионированиеElasticsearch</content>
+  <content>CommonModule.md_ВерсионированиеElasticsearchВызовСервера</content>
+  <content>CommonModule.md_ВерсионированиеElasticsearchСлужебный</content>
+  <content>CommonModule.md_ВерсионированиеElasticsearchКлиент</content>
+  <content>Role.md_ЗапускОтчетаСравнениеВерсийElasticsearch</content>
+  <parentSubsystem>Subsystem.md_ИнтеграцияElasticsearch</parentSubsystem>
+</mdclass:Subsystem>

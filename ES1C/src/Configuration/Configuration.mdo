@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2086548-b9e7-46c8-9186-3bd18e202640">
+  <name>ИнтеграцияElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция elasticsearch</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8523577b-2f9f-47b8-8b87-295db5db2926"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b0bd5c2b-7013-4824-9b58-557d44ed8fc4"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="29d7d1b6-03f0-4252-95fc-4139319ce7d4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="70566202-7488-478b-b2d3-692230bae4b7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bd79e795-7c0d-4a5f-a971-eb024845e783"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a42e30dd-fa57-4bbf-a32c-58bf0693f951"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="028e41ca-868a-4396-b036-0564ff7348be">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.md_ИнтеграцияElasticsearch</subsystems>
+  <subsystems>Subsystem._ДемоВерсионированиеElasticsearch</subsystems>
+  <commonPictures>CommonPicture.md_ДлительнаяОперация48</commonPictures>
+  <interfaces>Interface.гкс_Интеграция</interfaces>
+  <sessionParameters>SessionParameter.md_ТекущийПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.md_ПараметрыКлиентаНаСервере</sessionParameters>
+  <roles>Role.md_ПросмотрДанныхElasticsearch</roles>
+  <roles>Role.md_ЗапускОтчетаСравнениеВерсийElasticsearch</roles>
+  <roles>Role.md_НастройкаИнтеграцииСElasticsearch</roles>
+  <roles>Role.md_АдминистрированиеИнтеграцииElasticsearch</roles>
+  <roles>Role.md_ПодсистемаИнтеграцияElasticsearch</roles>
+  <commonModules>CommonModule.md_ВерсионированиеElasticsearch</commonModules>
+  <commonModules>CommonModule.md_ВерсионированиеElasticsearchВызовСервера</commonModules>
+  <commonModules>CommonModule.md_ВерсионированиеElasticsearchСлужебный</commonModules>
+  <commonModules>CommonModule.md_ВерсионированиеElasticsearchКлиент</commonModules>
+  <commonModules>CommonModule.md_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.md_СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.md_ОбщегоНазначенияElasticsearch</commonModules>
+  <eventSubscriptions>EventSubscription.md_ВерсионированиеElasticsearch_ДокументОбъект_ПриЗаписи</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.md_ОтправкаДанныхОчередейВElasticsearch</scheduledJobs>
+  <scheduledJobs>ScheduledJob.md_ОчисткаЖурналовСообщенийElasticsearch</scheduledJobs>
+  <functionalOptions>FunctionalOption.md_ИспользоватьВерсионированиеElasticsearch</functionalOptions>
+  <definedTypes>DefinedType.md_ОбъектыВерсионированияElasticSearch</definedTypes>
+  <constants>Constant.md_ИспользоватьВерсионированиеElasticsearch</constants>
+  <catalogs>Catalog.md_СервераElasticsearch</catalogs>
+  <catalogs>Catalog.md_Пользователи</catalogs>
+  <catalogs>Catalog._Демо_ВерсионированиеElasticsearch</catalogs>
+  <documents>Document._Демо_ВерсионированиеElasticsearch</documents>
+  <enums>Enum.md_СпособыСериализацииДокументовElasticsearch</enums>
+  <reports>Report.md_СравнениеВерсийElasticsearch</reports>
+  <dataProcessors>DataProcessor.md_АдминистраторElasticSearch</dataProcessors>
+  <informationRegisters>InformationRegister.md_НастройкаВерсионированияОбъектовВElasticsearch</informationRegisters>
+  <informationRegisters>InformationRegister.md_ОчередьДанныхКОтправкеВElasticsearch</informationRegisters>
+  <informationRegisters>InformationRegister.md_ЖурналСообщенийElasticsearch</informationRegisters>
+</mdclass:Configuration>

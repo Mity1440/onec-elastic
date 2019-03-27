@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d6ed80c-0207-430d-a644-faeba31f226c">
+  <producedTypes>
+    <refType typeId="1264afb8-98ea-4e51-a348-23c787e349e1" valueTypeId="8691a8f7-ecf2-493e-8f69-8027f16015cd"/>
+    <listType typeId="96f18831-ce90-47d5-a675-dff843b5d69c" valueTypeId="8e503c55-d335-48f5-a36d-59d5ff3c43bf"/>
+    <managerType typeId="74acdd6c-b0c0-48de-8763-90dd359df9a9" valueTypeId="01666ba7-9626-4e86-a813-4c4924766222"/>
+  </producedTypes>
+  <name>md_СпособыСериализацииДокументовElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы сериализации документов elasticsearch</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b633825c-06a2-4793-aa19-7b4dcebd3b18">
+    <name>СтандартнаяСериализацияJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сериализация в JSON объекта (1С)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="640e3fff-2d47-4047-bb0b-19f40400e442">
+    <name>СериализацияJSONПоРеквизитно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сериализация в JSON объекта по свойствам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

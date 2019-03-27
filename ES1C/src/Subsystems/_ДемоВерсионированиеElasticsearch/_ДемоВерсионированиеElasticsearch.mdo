@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f751e56f-9b57-40b6-a83c-ea7cb0c83d49">
+  <name>_ДемоВерсионированиеElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо (Версионирование)</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document._Демо_ВерсионированиеElasticsearch</content>
+  <content>Catalog._Демо_ВерсионированиеElasticsearch</content>
+</mdclass:Subsystem>

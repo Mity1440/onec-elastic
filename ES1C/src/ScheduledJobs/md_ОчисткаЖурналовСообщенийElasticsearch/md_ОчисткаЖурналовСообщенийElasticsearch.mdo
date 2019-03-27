@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b27ea6e-d29e-4233-ac8c-47013640250e">
+  <name>md_ОчисткаЖурналовСообщенийElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка журналов сообщений Elasticsearch</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.md_ВерсионированиеElasticsearch.md_ОчисткаЖурналовСообщенийElasticsearch</methodName>
+  <description>Очистка журналов сообщений Elasticsearch</description>
+  <key>c50c6cab-04bd-4359-b05c-ad411cd4rt4c</key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

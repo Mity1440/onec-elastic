@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a68ce980-e2f9-470c-9ef5-4056b92b73cb">
+  <producedTypes>
+    <containerType typeId="8a4f81f0-ec46-4808-8f12-786bdc866343" valueTypeId="7d22c8b8-e617-4c50-a323-6f1d8d2ca300"/>
+  </producedTypes>
+  <name>md_ОбъектыВерсионированияElasticSearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты версионирования elastic search</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>DocumentRef._Демо_ВерсионированиеElasticsearch</types>
+  </type>
+</mdclass:DefinedType>

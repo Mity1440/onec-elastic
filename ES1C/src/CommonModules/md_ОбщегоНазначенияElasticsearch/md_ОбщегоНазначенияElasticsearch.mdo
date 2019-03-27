@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80f84f65-2c4c-4a68-8f70-aa4d7bf75301">
+  <name>md_ОбщегоНазначенияElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения elasticsearch (md)</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+</mdclass:CommonModule>

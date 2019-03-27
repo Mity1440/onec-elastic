@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b301d77-1343-44dd-995d-79efc5ed8dcb">
+  <producedTypes>
+    <objectType typeId="24035ab8-0ac8-4a06-84ac-b8e7de30bccc" valueTypeId="8f74e6f3-d633-4904-90f0-4a2d33e66bff"/>
+    <refType typeId="eba69d3a-ab81-4a13-b6a4-84a94db064cc" valueTypeId="3dfcbae8-18a9-4a87-be05-75b5327f7111"/>
+    <selectionType typeId="e2431ac6-a740-4bed-899e-391283580d91" valueTypeId="4a22e9bc-9d6a-42b2-a386-782ee8f09469"/>
+    <listType typeId="216881e7-0b7f-4426-8475-e2b705e930e7" valueTypeId="9781b791-260c-40ef-840e-311a2167bbad"/>
+    <managerType typeId="20cc2d09-bd16-463c-9f93-43b683a24167" valueTypeId="d80c7656-1200-4f38-9289-67f223bf46fe"/>
+  </producedTypes>
+  <name>_Демо_ВерсионированиеElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ (Версионирование)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document._Демо_ВерсионированиеElasticsearch.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="124bfe62-b053-4481-a3af-6537976ee900">
+    <name>Реквизит1</name>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="c5ba3f5d-d0f7-4d71-9649-74cbe2b469b2">
+    <producedTypes>
+      <objectType typeId="4c461a5f-9ccb-4178-8d0b-5e587064b096" valueTypeId="0db4de3f-943f-49f3-a438-772007d44be6"/>
+      <rowType typeId="d397e2ca-0e6d-4f3b-a1a7-be0b1a1cf0a3" valueTypeId="761c81c5-00c5-4a1f-a1c1-0d6657835b71"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <comment></comment>
+    <attributes uuid="ff8ff5de-9238-4abb-88ff-6dd9862c1bbf">
+      <name>Реквизит1</name>
+      <comment></comment>
+      <type>
+        <types>CatalogRef._Демо_ВерсионированиеElasticsearch</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
