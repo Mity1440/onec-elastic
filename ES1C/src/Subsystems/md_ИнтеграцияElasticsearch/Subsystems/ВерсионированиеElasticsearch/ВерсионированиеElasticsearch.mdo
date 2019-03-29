@@ -7,6 +7,7 @@
   </synonym>
   <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.md_НастройкаВерсионированияОбъектовВElasticsearch</content>
   <content>Report.md_СравнениеВерсийElasticsearch</content>
   <content>Constant.md_ИспользоватьВерсионированиеElasticsearch</content>

@@ -10,6 +10,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.md_ОбщегоНазначенияElasticsearch</content>
   <content>Role.md_ПодсистемаИнтеграцияElasticsearch</content>
+  <content>DataProcessor.md_АдминистраторElasticSearch</content>
   <subsystems>ВерсионированиеElasticsearch</subsystems>
   <subsystems>Служебные</subsystems>
 </mdclass:Subsystem>

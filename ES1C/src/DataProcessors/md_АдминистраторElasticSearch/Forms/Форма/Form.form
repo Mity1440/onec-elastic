@@ -3497,48 +3497,6 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>СформироватьФайлПоиска</name>
-    <title>
-      <key>ru</key>
-      <value>Сформировать файл поиска</value>
-    </title>
-    <id>8</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Сформировать файл поиска</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>СформироватьФайлПоиска</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПоказатьСодержимое</name>
-    <title>
-      <key>ru</key>
-      <value>Показать содержимое</value>
-    </title>
-    <id>9</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Показать содержимое</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПоказатьСодержимое</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ОтключитьОбновлениеВремени</name>
     <title>
       <key>ru</key>

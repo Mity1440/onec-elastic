@@ -426,10 +426,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <handlers>
-    <event>BeforeLoadDataFromSettingsAtServer</event>
-    <name>ПередЗагрузкойДанныхИзНастроекНаСервере</name>
-  </handlers>
   <excludedCommands>Generate</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -678,16 +674,12 @@
   </commandInterface>
   <extInfo xsi:type="form:ReportFormExtInfo">
     <handlers>
-      <event>BeforeLoadUserSettingsAtServer</event>
-      <name>ПередЗагрузкойПользовательскихНастроекНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>OnLoadUserSettingsAtServer</event>
-      <name>ПриЗагрузкеПользовательскихНастроекНаСервере</name>
-    </handlers>
-    <handlers>
       <event>OnLoadVariantAtServer</event>
       <name>ПриЗагрузкеВариантаНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeLoadUserSettingsAtServer</event>
+      <name>ПередЗагрузкойПользовательскихНастроекНаСервере</name>
     </handlers>
     <reportResult>Результат</reportResult>
     <detailsInformation>ДанныеРасшифровки</detailsInformation>

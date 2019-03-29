@@ -161,6 +161,10 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -208,53 +212,6 @@
       <common>true</common>
     </edit>
   </attributes>
-  <parameters>
-    <name>СтрокаСоединения</name>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
-    <name>ИмяБазыДанных</name>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
-    <name>ФайлАрхива</name>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
-    <name>КаталогБазы</name>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
-    <name>СетевоеИмяСервера</name>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
-    <name>Обезличивать</name>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
