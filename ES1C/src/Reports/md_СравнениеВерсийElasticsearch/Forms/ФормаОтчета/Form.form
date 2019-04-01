@@ -204,7 +204,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ИзменитьВариантОтчета</commandName>
+      <commandName>Form.StandardCommand.ChangeVariant</commandName>
       <representation>Auto</representation>
       <onlyInAllActions>true</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
@@ -643,27 +643,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Сформировать</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ИзменитьВариантОтчета</name>
-    <title>
-      <key>ru</key>
-      <value>Изменить вариант отчета</value>
-    </title>
-    <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Изменить вариант отчета</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ИзменитьВариантОтчета</name>
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
