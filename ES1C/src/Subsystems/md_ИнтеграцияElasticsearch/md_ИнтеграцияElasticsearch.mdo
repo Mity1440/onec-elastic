@@ -7,10 +7,16 @@
   </synonym>
   <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.md_ОбщегоНазначенияElasticsearch</content>
   <content>Role.md_ПодсистемаИнтеграцияElasticsearch</content>
   <content>DataProcessor.md_АдминистраторElasticSearch</content>
+  <content>CommonCommand.АдминистраторованиеElasticsearch</content>
   <subsystems>ВерсионированиеElasticsearch</subsystems>
   <subsystems>Служебные</subsystems>
 </mdclass:Subsystem>

@@ -7,7 +7,7 @@
   <name>md_СравнениеВерсийElasticsearch</name>
   <synonym>
     <key>ru</key>
-    <value>Сравнение версий elasticsearch</value>
+    <value>Сравнение версий (Elasticsearch)</value>
   </synonym>
   <comment></comment>
   <defaultForm>Report.md_СравнениеВерсийElasticsearch.Form.ФормаОтчета</defaultForm>

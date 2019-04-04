@@ -58,6 +58,7 @@
   <scheduledJobs>ScheduledJob.md_ОчисткаЖурналовСообщенийElasticsearch</scheduledJobs>
   <functionalOptions>FunctionalOption.md_ИспользоватьВерсионированиеElasticsearch</functionalOptions>
   <definedTypes>DefinedType.md_ОбъектыВерсионированияElasticSearch</definedTypes>
+  <commonCommands>CommonCommand.АдминистраторованиеElasticsearch</commonCommands>
   <constants>Constant.md_ИспользоватьВерсионированиеElasticsearch</constants>
   <catalogs>Catalog.md_СервераElasticsearch</catalogs>
   <catalogs>Catalog.md_Пользователи</catalogs>
