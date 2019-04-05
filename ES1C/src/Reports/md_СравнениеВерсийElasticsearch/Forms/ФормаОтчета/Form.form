@@ -415,10 +415,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>ChoiceProcessing</event>
-    <name>ОбработкаВыбора</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
@@ -635,9 +631,24 @@
     <id>13</id>
     <valueType>
       <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <dateQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЗаполнитьНастройкиИзПараметров</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить настройки из параметров</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
@@ -675,10 +686,6 @@
     <handlers>
       <event>OnLoadUserSettingsAtServer</event>
       <name>ПриЗагрузкеПользовательскихНастроекНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>OnLoadVariantAtServer</event>
-      <name>ПриЗагрузкеВариантаНаСервере</name>
     </handlers>
     <reportResult>Результат</reportResult>
     <detailsInformation>ДанныеРасшифровки</detailsInformation>

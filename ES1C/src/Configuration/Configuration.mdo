@@ -59,6 +59,7 @@
   <functionalOptions>FunctionalOption.md_ИспользоватьВерсионированиеElasticsearch</functionalOptions>
   <definedTypes>DefinedType.md_ОбъектыВерсионированияElasticSearch</definedTypes>
   <commonCommands>CommonCommand.АдминистраторованиеElasticsearch</commonCommands>
+  <commonCommands>CommonCommand.ВерсииОбъекта</commonCommands>
   <constants>Constant.md_ИспользоватьВерсионированиеElasticsearch</constants>
   <catalogs>Catalog.md_СервераElasticsearch</catalogs>
   <catalogs>Catalog.md_Пользователи</catalogs>

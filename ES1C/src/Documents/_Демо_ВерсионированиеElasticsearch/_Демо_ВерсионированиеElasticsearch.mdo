@@ -24,6 +24,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultListForm>Document._Демо_ВерсионированиеElasticsearch.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="124bfe62-b053-4481-a3af-6537976ee900">
@@ -44,6 +45,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="aaed82d7-5c1f-411c-8b3d-ee23cb382488">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="c5ba3f5d-d0f7-4d71-9649-74cbe2b469b2">
     <producedTypes>
       <objectType typeId="4c461a5f-9ccb-4178-8d0b-5e587064b096" valueTypeId="0db4de3f-943f-49f3-a438-772007d44be6"/>

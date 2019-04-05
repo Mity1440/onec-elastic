@@ -24,11 +24,11 @@
 		<use>Auto</use>
 	</parameter>
 	<parameter>
-		<name>СерверElasticsearch</name>
+		<name>СерверES</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Сервер elasticsearch</v8:content>
+				<v8:content>Сервер ES</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -38,7 +38,7 @@
 		</value>
 		<useRestriction>false</useRestriction>
 		<valueListAllowed>false</valueListAllowed>
-		<availableAsField>false</availableAsField>
+		<availableAsField>true</availableAsField>
 		<denyIncompleteValues>true</denyIncompleteValues>
 		<use>Auto</use>
 	</parameter>
@@ -60,7 +60,7 @@
 		<value xsi:type="xs:string"></value>
 		<useRestriction>false</useRestriction>
 		<valueListAllowed>false</valueListAllowed>
-		<availableAsField>false</availableAsField>
+		<availableAsField>true</availableAsField>
 		<denyIncompleteValues>true</denyIncompleteValues>
 		<use>Auto</use>
 	</parameter>
@@ -167,18 +167,18 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>СерверElasticsearch</dcscor:parameter>
-					<dcscor:value xsi:nil="true">
-					</dcscor:value>
-					<dcsset:viewMode>Normal</dcsset:viewMode>
-					<dcsset:userSettingID>368e035e-8c9f-4697-ac88-663614c4bd9f</dcsset:userSettingID>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ИндексES</dcscor:parameter>
 					<dcscor:value xsi:type="xs:string"></dcscor:value>
 					<dcsset:viewMode>Normal</dcsset:viewMode>
 					<dcsset:userSettingID>48c6beed-e0f5-44e4-9dbb-b32291b64c77</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>СерверES</dcscor:parameter>
+					<dcscor:value xsi:nil="true">
+					</dcscor:value>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>6c25baf4-2abb-4608-8e59-0ee2cf799582</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
