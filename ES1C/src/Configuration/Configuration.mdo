@@ -48,11 +48,11 @@
   <roles>Role.md_ПодсистемаИнтеграцияElasticsearch</roles>
   <commonModules>CommonModule.md_ВерсионированиеElasticsearch</commonModules>
   <commonModules>CommonModule.md_ВерсионированиеElasticsearchВызовСервера</commonModules>
-  <commonModules>CommonModule.md_ВерсионированиеElasticsearchСлужебный</commonModules>
   <commonModules>CommonModule.md_ВерсионированиеElasticsearchКлиент</commonModules>
+  <commonModules>CommonModule.md_ВерсионированиеElasticsearchСлужебный</commonModules>
   <commonModules>CommonModule.md_ОбщегоНазначения</commonModules>
-  <commonModules>CommonModule.md_СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.md_ОбщегоНазначенияElasticsearch</commonModules>
+  <commonModules>CommonModule.md_СтроковыеФункцииКлиентСервер</commonModules>
   <eventSubscriptions>EventSubscription.md_ВерсионированиеElasticsearch_ДокументОбъект_ПриЗаписи</eventSubscriptions>
   <scheduledJobs>ScheduledJob.md_ОтправкаДанныхОчередейВElasticsearch</scheduledJobs>
   <scheduledJobs>ScheduledJob.md_ОчисткаЖурналовСообщенийElasticsearch</scheduledJobs>
@@ -68,7 +68,7 @@
   <enums>Enum.md_СпособыСериализацииДокументовElasticsearch</enums>
   <reports>Report.md_СравнениеВерсийElasticsearch</reports>
   <dataProcessors>DataProcessor.md_АдминистраторElasticSearch</dataProcessors>
+  <informationRegisters>InformationRegister.md_ЖурналСообщенийElasticsearch</informationRegisters>
   <informationRegisters>InformationRegister.md_НастройкаВерсионированияОбъектовВElasticsearch</informationRegisters>
   <informationRegisters>InformationRegister.md_ОчередьДанныхКОтправкеВElasticsearch</informationRegisters>
-  <informationRegisters>InformationRegister.md_ЖурналСообщенийElasticsearch</informationRegisters>
 </mdclass:Configuration>

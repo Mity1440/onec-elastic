@@ -588,41 +588,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ВариантОтчетаПоУмолчанию</name>
-    <title>
-      <key>ru</key>
-      <value>Вариант отчета по умолчанию</value>
-    </title>
-    <id>10</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>СводныеДанныеПоВерсиямПолучены</name>
-    <title>
-      <key>ru</key>
-      <value>Сводные данные по версиям получены</value>
-    </title>
-    <id>11</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ДатаОтбора</name>
     <title>
       <key>ru</key>
@@ -686,6 +651,18 @@
     <handlers>
       <event>OnLoadUserSettingsAtServer</event>
       <name>ПриЗагрузкеПользовательскихНастроекНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeLoadVariantAtServer</event>
+      <name>ПередЗагрузкойВариантаНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeLoadUserSettingsAtServer</event>
+      <name>ПередЗагрузкойПользовательскихНастроекНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnLoadVariantAtServer</event>
+      <name>ПриЗагрузкеВариантаНаСервере</name>
     </handlers>
     <reportResult>Результат</reportResult>
     <detailsInformation>ДанныеРасшифровки</detailsInformation>
