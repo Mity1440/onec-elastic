@@ -3,7 +3,7 @@
   <name>АдминистраторованиеElasticsearch</name>
   <synonym>
     <key>ru</key>
-    <value>Администраторование elasticsearch</value>
+    <value>Управление интеграцией</value>
   </synonym>
   <group>NavigationPanelImportant</group>
   <representation>Auto</representation>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb8ade37-a690-424f-b7e6-77631f97b13d">
+  <producedTypes>
+    <objectType typeId="642af7f8-1989-4d49-a007-900b76bfce8f" valueTypeId="c218d7c0-95cf-4c2a-b4e9-0246e899f81c"/>
+    <refType typeId="20722128-9fce-4a02-89cb-02642d96b984" valueTypeId="95248e77-e70a-45f8-aabe-29a02843605e"/>
+    <selectionType typeId="97663a3a-552f-40fa-9b0c-3375d7f2c799" valueTypeId="71b9dc20-04f5-49a0-a623-00693fa0a86d"/>
+    <listType typeId="781391ce-55d3-4503-a95c-a0b7c9840124" valueTypeId="5c26f0a9-58d4-4c38-ac01-9162a3e272c5"/>
+    <managerType typeId="4df606d6-18be-4853-9203-d23c84964afc" valueTypeId="f00288fd-ae02-4109-9129-913a2b300984"/>
+  </producedTypes>
+  <name>md_ИндексыElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Индексы (Еlasticsearch)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.md_ИндексыElasticsearch.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Индекс</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Индекс</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Индексы</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Индексы</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.md_ИндексыElasticsearch.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3aee276d-49dc-4d7e-ac0b-46e7ec5947ca">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2565da1b-5d57-43f5-aa7b-19f12e4bcdcf">
+    <producedTypes>
+      <objectType typeId="91eceb31-f51a-4363-a1a0-a5e0fe2fa96c" valueTypeId="532180b7-8d02-4e49-9ffa-5275f5a6d313"/>
+      <rowType typeId="926363b9-695e-4cf5-ac81-241369be00fe" valueTypeId="70b46334-0cf1-4611-8232-138b46733d64"/>
+    </producedTypes>
+    <name>Ноды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ноды</value>
+    </synonym>
+    <attributes uuid="673d0c16-564a-4d06-9391-75265cb029a8">
+      <name>Нода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нода</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.md_СервераElasticsearch</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="609c13ec-10ef-4b47-a8a4-98c0f42cb24f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

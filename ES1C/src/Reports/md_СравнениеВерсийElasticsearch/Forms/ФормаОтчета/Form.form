@@ -653,14 +653,6 @@
       <name>ПриЗагрузкеПользовательскихНастроекНаСервере</name>
     </handlers>
     <handlers>
-      <event>BeforeLoadVariantAtServer</event>
-      <name>ПередЗагрузкойВариантаНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>BeforeLoadUserSettingsAtServer</event>
-      <name>ПередЗагрузкойПользовательскихНастроекНаСервере</name>
-    </handlers>
-    <handlers>
       <event>OnLoadVariantAtServer</event>
       <name>ПриЗагрузкеВариантаНаСервере</name>
     </handlers>

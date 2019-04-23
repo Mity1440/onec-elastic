@@ -10,7 +10,7 @@
   <name>md_СервераElasticsearch</name>
   <synonym>
     <key>ru</key>
-    <value>Сервера Еlasticsearch</value>
+    <value>Ноды (Еlasticsearch)</value>
   </synonym>
   <comment></comment>
   <useStandardCommands>true</useStandardCommands>
@@ -113,6 +113,22 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Нода</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Нода</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ноды</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Ноды</value>
+  </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <descriptionLength>150</descriptionLength>

@@ -181,24 +181,16 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.md_Пользователи</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <choiceParameters>
-      <name>Отбор.Служебный</name>
-      <value xsi:type="core:BooleanValue">
-        <value>true</value>
-      </value>
-    </choiceParameters>
     <denyIncompleteValues>true</denyIncompleteValues>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="dd290b93-85ea-4e89-92e0-b7dfd9816395">
     <name>НомерСеанса</name>

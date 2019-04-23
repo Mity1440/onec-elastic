@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25c850af-599c-4364-9f62-edf02fd604ad">
+  <name>md_ИнтеграцияElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип подсистемы</value>
+  </synonym>
+  <comment>https://pngtree.com/free-icon/elasticsearch_913428</comment>
+</mdclass:CommonPicture>

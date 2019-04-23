@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c218f18-1560-42b7-be4b-16fd0767a10a">
+  <name>md_НастройкиИнтеграцииСElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки интеграции с Elasticsearch</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

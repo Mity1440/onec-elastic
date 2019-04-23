@@ -48,14 +48,22 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
+      <types>CatalogRef.md_ИндексыElasticsearch</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Нода</name>
+      <field>DataProcessor.md_АдминистраторElasticSearch.Attribute.СерверElasticsearch</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>СсылкаНаобъект</name>
+      <field>DataProcessor.md_АдминистраторElasticSearch.Attribute.СсылкаНаОбъект</field>
+    </choiceParameterLinks>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
   </attributes>
   <attributes uuid="95ea7a28-6e12-4da6-ad10-4fc405a0dad8">
     <name>ВсегоВерсий</name>

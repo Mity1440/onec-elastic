@@ -147,10 +147,7 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
+      <types>CatalogRef.md_ИндексыElasticsearch</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -158,9 +155,6 @@
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="1c3b36ed-7b71-4f55-b0b8-cdfb0310b844">

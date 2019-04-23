@@ -304,10 +304,24 @@
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
                 <dropListButton>true</dropListButton>
-                <choiceButton>true</choiceButton>
+                <choiceButton>false</choiceButton>
+                <quickChoice>true</quickChoice>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceParameterLinks>
+                  <name>Нода</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>Объект.СерверElasticsearch</segments>
+                  </datapath>
+                </choiceParameterLinks>
+                <choiceParameterLinks>
+                  <name>СсылкаНаОбъект</name>
+                  <datapath xsi:type="form:DataPath">
+                    <segments>Объект.СсылкаНаОбъект</segments>
+                  </datapath>
+                </choiceParameterLinks>
+                <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
               </extInfo>
             </items>
             <visible>true</visible>

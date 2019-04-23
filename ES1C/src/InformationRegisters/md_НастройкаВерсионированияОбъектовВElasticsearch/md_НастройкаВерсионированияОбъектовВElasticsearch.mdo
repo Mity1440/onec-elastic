@@ -184,10 +184,7 @@
     </synonym>
     <comment></comment>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
+      <types>CatalogRef.md_ИндексыElasticsearch</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -195,9 +192,6 @@
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="2f22e355-f222-4de5-9728-459b190ea0b4">

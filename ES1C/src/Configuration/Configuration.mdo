@@ -38,6 +38,7 @@
   <subsystems>Subsystem.md_ИнтеграцияElasticsearch</subsystems>
   <subsystems>Subsystem._ДемоВерсионированиеElasticsearch</subsystems>
   <commonPictures>CommonPicture.md_ДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.md_ИнтеграцияElasticsearch</commonPictures>
   <interfaces>Interface.гкс_Интеграция</interfaces>
   <sessionParameters>SessionParameter.md_ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.md_ПараметрыКлиентаНаСервере</sessionParameters>
@@ -52,6 +53,7 @@
   <commonModules>CommonModule.md_ВерсионированиеElasticsearchСлужебный</commonModules>
   <commonModules>CommonModule.md_ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.md_ОбщегоНазначенияElasticsearch</commonModules>
+  <commonModules>CommonModule.md_ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.md_СтроковыеФункцииКлиентСервер</commonModules>
   <eventSubscriptions>EventSubscription.md_ВерсионированиеElasticsearch_ДокументОбъект_ПриЗаписи</eventSubscriptions>
   <scheduledJobs>ScheduledJob.md_ОтправкаДанныхОчередейВElasticsearch</scheduledJobs>
@@ -60,10 +62,13 @@
   <definedTypes>DefinedType.md_ОбъектыВерсионированияElasticSearch</definedTypes>
   <commonCommands>CommonCommand.АдминистраторованиеElasticsearch</commonCommands>
   <commonCommands>CommonCommand.ВерсииОбъекта</commonCommands>
+  <commonCommands>CommonCommand.md_НастройкиИнтеграцииElasticsearch</commonCommands>
   <constants>Constant.md_ИспользоватьВерсионированиеElasticsearch</constants>
-  <catalogs>Catalog.md_СервераElasticsearch</catalogs>
-  <catalogs>Catalog.md_Пользователи</catalogs>
+  <commonForms>CommonForm.md_НастройкиИнтеграцииСElasticsearch</commonForms>
   <catalogs>Catalog._Демо_ВерсионированиеElasticsearch</catalogs>
+  <catalogs>Catalog.md_ИндексыElasticsearch</catalogs>
+  <catalogs>Catalog.md_Пользователи</catalogs>
+  <catalogs>Catalog.md_СервераElasticsearch</catalogs>
   <documents>Document._Демо_ВерсионированиеElasticsearch</documents>
   <enums>Enum.md_СпособыСериализацииДокументовElasticsearch</enums>
   <reports>Report.md_СравнениеВерсийElasticsearch</reports>
