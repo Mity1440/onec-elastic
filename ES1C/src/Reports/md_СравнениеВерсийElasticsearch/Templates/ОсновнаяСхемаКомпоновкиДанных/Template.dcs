@@ -51,11 +51,7 @@
 			</v8:item>
 		</title>
 		<valueType>
-			<v8:Type>xs:string</v8:Type>
-			<v8:StringQualifiers>
-				<v8:Length>0</v8:Length>
-				<v8:AllowedLength>Variable</v8:AllowedLength>
-			</v8:StringQualifiers>
+			<v8:Type xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d3p1:CatalogRef.md_ИндексыElasticsearch</v8:Type>
 		</valueType>
 		<value xsi:type="xs:string"></value>
 		<useRestriction>false</useRestriction>

@@ -7,7 +7,7 @@
   </synonym>
   <group>FormNavigationPanelGoTo</group>
   <commandParameterType>
-    <types>DefinedType.md_ОбъектыВерсионированияElasticSearch</types>
+    <types>CatalogRef._Демо_ВерсионированиеElasticsearch</types>
   </commandParameterType>
   <representation>Auto</representation>
 </mdclass:CommonCommand>

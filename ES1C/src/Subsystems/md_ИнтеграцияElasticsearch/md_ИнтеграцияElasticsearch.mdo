@@ -24,6 +24,6 @@
   <content>Catalog.md_СервераElasticsearch</content>
   <content>CommonModule.md_ОбщегоНазначенияКлиентСервер</content>
   <content>CommonCommand.md_НастройкиИнтеграцииElasticsearch</content>
-  <subsystems>ВерсионированиеElasticsearch</subsystems>
+  <subsystems>Версионирование</subsystems>
   <subsystems>Служебные</subsystems>
 </mdclass:Subsystem>

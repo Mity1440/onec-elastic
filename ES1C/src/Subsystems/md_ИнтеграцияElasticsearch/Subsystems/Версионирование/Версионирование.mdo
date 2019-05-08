@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e26254b-01b1-4cca-ab70-5a4aa13549d1">
-  <name>ВерсионированиеElasticsearch</name>
+  <name>Версионирование</name>
   <synonym>
     <key>ru</key>
-    <value>Версионирование elasticsearch</value>
+    <value>Версионирование</value>
   </synonym>
   <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
@@ -19,5 +19,8 @@
   <content>CommonModule.md_ВерсионированиеElasticsearchСлужебный</content>
   <content>CommonModule.md_ВерсионированиеElasticsearchКлиент</content>
   <content>Role.md_ЗапускОтчетаСравнениеВерсийElasticsearch</content>
+  <content>CommandGroup.md_Версионирование</content>
+  <content>InformationRegister.md_НастройкиРазмещенияОтчетаСравнениеВерсий</content>
+  <content>CommonPicture.md_ГруппаКомандElasticsearch</content>
   <parentSubsystem>Subsystem.md_ИнтеграцияElasticsearch</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bcce0c6-6234-40e3-8932-5f3c1aa61765">
+  <name>md_ГруппаКомандElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа команд &quot;Версионирование elasticsearch&quot;</value>
+  </synonym>
+</mdclass:CommonPicture>

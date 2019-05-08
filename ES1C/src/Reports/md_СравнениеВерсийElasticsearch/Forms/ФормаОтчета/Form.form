@@ -519,10 +519,7 @@
     </title>
     <id>6</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
+      <types>CatalogRef.md_ИндексыElasticsearch</types>
     </valueType>
     <view>
       <common>true</common>
