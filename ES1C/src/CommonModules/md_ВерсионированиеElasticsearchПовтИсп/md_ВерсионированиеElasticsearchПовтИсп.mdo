@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f20fd83e-410c-432c-9fe2-af75d0c7a922">
+  <name>md_ВерсионированиеElasticsearchПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионирование elasticsearch (Сервер, повторное использование)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

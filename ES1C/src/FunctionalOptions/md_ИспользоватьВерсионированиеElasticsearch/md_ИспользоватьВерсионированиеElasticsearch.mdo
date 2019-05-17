@@ -13,4 +13,6 @@
   <content>InformationRegister.md_НастройкаВерсионированияОбъектовВElasticsearch</content>
   <content>InformationRegister.md_ОчередьДанныхКОтправкеВElasticsearch</content>
   <content>DataProcessor.md_АдминистраторElasticSearch</content>
+  <content>Catalog.md_НастройкиСравненияВерсий</content>
+  <content>Subsystem.md_ИнтеграцияElasticsearch.Subsystem.Версионирование</content>
 </mdclass:FunctionalOption>

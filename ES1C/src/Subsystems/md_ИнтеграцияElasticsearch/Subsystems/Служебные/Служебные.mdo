@@ -13,5 +13,6 @@
   <content>SessionParameter.md_ПараметрыКлиентаНаСервере</content>
   <content>CommonPicture.md_ДлительнаяОперация48</content>
   <content>Catalog.md_Пользователи</content>
+  <content>CommonModule.md_ОбщегоНазначенияКлиентСервер</content>
   <parentSubsystem>Subsystem.md_ИнтеграцияElasticsearch</parentSubsystem>
 </mdclass:Subsystem>

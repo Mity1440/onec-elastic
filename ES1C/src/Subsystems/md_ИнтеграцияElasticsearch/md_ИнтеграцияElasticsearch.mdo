@@ -24,6 +24,20 @@
   <content>Catalog.md_СервераElasticsearch</content>
   <content>CommonModule.md_ОбщегоНазначенияКлиентСервер</content>
   <content>CommonCommand.md_НастройкиИнтеграцииElasticsearch</content>
-  <subsystems>ВерсионированиеElasticsearch</subsystems>
+  <content>InformationRegister.md_ЖурналСообщенийElasticsearch</content>
+  <content>InformationRegister.md_ОчередьДанныхКОтправкеВElasticsearch</content>
+  <content>CommonPicture.md_ДлительнаяОперация48</content>
+  <content>CommonPicture.md_ИнтеграцияElasticsearch</content>
+  <content>CommonPicture.md_ГруппаКомандElasticsearch</content>
+  <content>CommandGroup.md_Версионирование</content>
+  <content>CommonForm.md_НастройкиИнтеграцииСElasticsearch</content>
+  <content>ScheduledJob.md_ОтправкаДанныхОчередейВElasticsearch</content>
+  <content>ScheduledJob.md_ОчисткаЖурналовСообщенийElasticsearch</content>
+  <content>Role.md_ПросмотрДанныхElasticsearch</content>
+  <content>Role.md_ЗапускОтчетаСравнениеВерсийElasticsearch</content>
+  <content>Role.md_АдминистрированиеИнтеграцииElasticsearch</content>
+  <content>Role.md_НастройкаИнтеграцииСElasticsearch</content>
+  <content>CommonModule.md_ОбщегоНазначения</content>
+  <subsystems>Версионирование</subsystems>
   <subsystems>Служебные</subsystems>
 </mdclass:Subsystem>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="566cd766-b085-42ae-943e-c0e7605323c0">
+  <producedTypes>
+    <selectionType typeId="7c26b1d1-14ea-4261-b874-f393d15cc1f3" valueTypeId="7a6098e5-4515-4ab0-941c-9904e0967499"/>
+    <listType typeId="b04f9631-f3e8-467c-8f74-f30b493b4576" valueTypeId="e7cb4469-ef68-4728-a216-346297c19d0e"/>
+    <managerType typeId="9587f1aa-a862-45e6-aef5-a28932d42c0b" valueTypeId="a3785663-e6f0-453f-a997-58cc3dba2e33"/>
+    <recordSetType typeId="7dcb89ad-ea2e-4015-9366-b3ff95cbd4c2" valueTypeId="5fd62901-a9e8-4a26-b40f-e33ed6a6a5a7"/>
+    <recordKeyType typeId="33bda3a4-1f66-4982-b839-0fe064489f20" valueTypeId="50e3d6dc-d892-4609-8357-7f5d6d467d13"/>
+    <recordType typeId="b891e688-d3c6-40b0-ba71-fe57e58f2545" valueTypeId="3edccf67-90ca-4e5d-bd25-c9db8ddb8d19"/>
+    <recordManagerType typeId="658d2322-1494-4865-a733-17caec93966b" valueTypeId="e6b49f6b-05ff-4ae6-961c-8de8097e02af"/>
+  </producedTypes>
+  <name>md_НастройкиРазмещенияОтчетаСравнениеВерсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки размещения отчета &quot;Сравнение версий&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Размещение команды  отчета&quot;Сравнение версий&quot;</value>
+  </recordPresentation>
+  <resources uuid="fea05cee-e899-4817-9698-78fce87e54b6">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="45f065f8-9552-49c3-a759-eb5d5065903d">
+    <name>ТипМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип метаданных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aade7c65-9dad-4bb5-adc9-828ef5f9050b">
+    <name>ВидФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид формы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.md_ВидФормы</types>
+    </type>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9ceaeb51-ed07-4e39-807d-4ac659d6207a">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.md_НастройкиСравненияВерсий</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eac1db1d-e19d-448f-896e-413c1176286f">
+  <producedTypes>
+    <refType typeId="5ac42d9b-0a96-4547-a66d-98c9c8af0d75" valueTypeId="96d3b365-a56f-4d0b-8d8f-0540fa0411b1"/>
+    <listType typeId="fac519af-1521-4761-be5a-cd728da7a5e1" valueTypeId="b4ce75ed-3aa5-442d-b205-c2822e95dcd7"/>
+    <managerType typeId="bda869ad-1e2a-43e4-b9e5-663b948d919c" valueTypeId="c083fb44-3fc6-4822-a4d5-0ad89dab0cb1"/>
+  </producedTypes>
+  <name>md_ВидФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды управляемых форм</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e3faeeed-1658-45cf-a2bb-488f3f538be2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa834f4d-dc39-46b1-ba70-e05e126d0691">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

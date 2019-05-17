@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09ec9a9e-b23f-48a0-aa2f-431cb982fcf2">
+  <name>md_Версионирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнить версии</value>
+  </synonym>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.md_ГруппаКомандElasticsearch</picture>
+  </picture>
+  <category>FormCommandBar</category>
+</mdclass:CommandGroup>

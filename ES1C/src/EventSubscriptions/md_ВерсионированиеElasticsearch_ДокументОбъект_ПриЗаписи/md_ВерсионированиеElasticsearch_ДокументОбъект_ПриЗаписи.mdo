@@ -8,6 +8,7 @@
   <comment></comment>
   <source>
     <types>DocumentObject._Демо_ВерсионированиеElasticsearch</types>
+    <types>CatalogObject._Демо_ВерсионированиеElasticsearch</types>
   </source>
   <event>OnWrite</event>
   <handler>CommonModule.md_ВерсионированиеElasticsearch.ВерсионированиеElasticsearch_ДокументОбъект_ПриЗаписи</handler>
