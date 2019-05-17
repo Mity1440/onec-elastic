@@ -5,5 +5,13 @@
       <command>DataProcessor.md_АдминистраторElasticSearch.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.md_ЖурналСообщенийElasticsearch.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.md_ОчередьДанныхКОтправкеВElasticsearch.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
 </cmi:CommandInterface>

@@ -5,6 +5,10 @@
       <command>InformationRegister.md_НастройкаВерсионированияОбъектовВElasticsearch.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.md_НастройкиСравненияВерсий.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
