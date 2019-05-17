@@ -22,5 +22,10 @@
   <content>CommandGroup.md_Версионирование</content>
   <content>InformationRegister.md_НастройкиРазмещенияОтчетаСравнениеВерсий</content>
   <content>CommonPicture.md_ГруппаКомандElasticsearch</content>
+  <content>Catalog.md_НастройкиСравненияВерсий</content>
+  <content>Enum.md_ВидФормы</content>
+  <content>Enum.md_СпособыСериализацииДокументовElasticsearch</content>
+  <content>CommonCommand.ВерсииОбъекта</content>
+  <content>CommonModule.md_ВерсионированиеElasticsearchПовтИсп</content>
   <parentSubsystem>Subsystem.md_ИнтеграцияElasticsearch</parentSubsystem>
 </mdclass:Subsystem>

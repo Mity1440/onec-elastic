@@ -11,5 +11,6 @@
   <comment></comment>
   <type>
     <types>DocumentRef._Демо_ВерсионированиеElasticsearch</types>
+    <types>CatalogRef._Демо_ВерсионированиеElasticsearch</types>
   </type>
 </mdclass:DefinedType>

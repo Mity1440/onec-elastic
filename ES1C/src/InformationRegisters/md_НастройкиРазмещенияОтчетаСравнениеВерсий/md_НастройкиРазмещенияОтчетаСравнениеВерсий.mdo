@@ -16,6 +16,10 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Размещение команды  отчета&quot;Сравнение версий&quot;</value>
+  </recordPresentation>
   <resources uuid="fea05cee-e899-4817-9698-78fce87e54b6">
     <name>Используется</name>
     <synonym>
