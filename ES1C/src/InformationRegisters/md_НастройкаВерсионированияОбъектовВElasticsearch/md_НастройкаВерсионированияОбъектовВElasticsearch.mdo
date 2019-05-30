@@ -15,7 +15,6 @@
     <value>Настройка версионирования объектов (Elasticsearch)</value>
   </synonym>
   <comment></comment>
-  <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.md_НастройкаВерсионированияОбъектовВElasticsearch.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.md_НастройкаВерсионированияОбъектовВElasticsearch.Form.ФормаСписка</defaultListForm>

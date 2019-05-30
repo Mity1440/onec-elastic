@@ -9,10 +9,9 @@
   <location>Constant.md_ИспользоватьВерсионированиеElasticsearch</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.md_СервераElasticsearch</content>
-  <content>InformationRegister.md_ЖурналСообщенийElasticsearch</content>
   <content>InformationRegister.md_НастройкаВерсионированияОбъектовВElasticsearch</content>
-  <content>InformationRegister.md_ОчередьДанныхКОтправкеВElasticsearch</content>
   <content>DataProcessor.md_АдминистраторElasticSearch</content>
   <content>Catalog.md_НастройкиСравненияВерсий</content>
   <content>Subsystem.md_ИнтеграцияElasticsearch.Subsystem.Версионирование</content>
+  <content>InformationRegister.md_НастройкиРазмещенияОтчетаСравнениеВерсий</content>
 </mdclass:FunctionalOption>

@@ -15,7 +15,6 @@
     <value>Очередь данных к отправке (Elasticsearch)</value>
   </synonym>
   <comment></comment>
-  <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.md_ОчередьДанныхКОтправкеВElasticsearch.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.md_ОчередьДанныхКОтправкеВElasticsearch.Form.ФормаСписка</defaultListForm>

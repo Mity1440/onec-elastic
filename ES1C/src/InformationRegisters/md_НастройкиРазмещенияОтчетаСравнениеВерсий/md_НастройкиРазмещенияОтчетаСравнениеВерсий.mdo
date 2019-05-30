@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Настройки размещения отчета &quot;Сравнение версий&quot;</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>

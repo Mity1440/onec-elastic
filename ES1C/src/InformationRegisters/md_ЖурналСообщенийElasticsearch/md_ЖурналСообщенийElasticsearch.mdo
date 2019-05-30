@@ -15,7 +15,6 @@
     <value>Журнал сообщений (Elasticsearch)</value>
   </synonym>
   <comment></comment>
-  <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.md_ЖурналСообщенийElasticsearch.Form.ФормаЗаписи</defaultRecordForm>
   <defaultListForm>InformationRegister.md_ЖурналСообщенийElasticsearch.Form.ФормаСписка</defaultListForm>

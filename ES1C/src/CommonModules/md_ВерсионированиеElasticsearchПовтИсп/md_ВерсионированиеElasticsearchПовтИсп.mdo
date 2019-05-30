@@ -6,4 +6,7 @@
     <value>Версионирование elasticsearch (Сервер, повторное использование)</value>
   </synonym>
   <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>
